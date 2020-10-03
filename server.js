@@ -1,7 +1,7 @@
-var os = require('os');
-var http = require('http');
+const os = require('os');
+const http = require('http');
 
-var server = http.createServer(function (request, response) {
+const server = http.createServer(function (request, response) {
   if (request.url === '/favicon.ico') {
     response.writeHead(200, {'Content-Type': 'image/x-icon'} );
     response.end();
