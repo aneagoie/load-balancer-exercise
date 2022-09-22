@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bottleneck": "^2.3.0",
-    "sleep": "^5.1.1"
+    "bottleneck": "^2.19.5",
+    "sleep": "^6.3.0"
   }
 }
 

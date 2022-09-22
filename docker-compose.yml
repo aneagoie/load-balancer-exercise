@@ -23,3 +23,4 @@ services:
     volumes:
       # allows you to run docker commands inside container. Learn more: https://medium.com/lucjuggery/about-var-run-docker-sock-3bfd276e12fd
       - /var/run/docker.sock:/var/run/docker.sock
+      
