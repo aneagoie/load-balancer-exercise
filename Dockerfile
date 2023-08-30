@@ -11,4 +11,4 @@ ADD package.json /app/package.json
 RUN npm install
 
 ENTRYPOINT ["node"]
-CMD ["server.js"]
+CMD ["server.js"] 
