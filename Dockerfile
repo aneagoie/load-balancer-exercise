@@ -1,4 +1,4 @@
-FROM node:carbon 
+FROM node 
 
 EXPOSE 3000
 
